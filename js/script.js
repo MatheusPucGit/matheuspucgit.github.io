@@ -5,7 +5,6 @@ function clicar(){
     var num4 = document.querySelector(".num4").value;
     var num5 = document.querySelector(".num5").value;
 
-    var resultado ="R$" +(parseInt(num1) + parseInt(num2) + parseInt(num3)+ parseInt(num4)+ parseInt(num5));
+    var resultado ="R$" +(parseFloat(num1) + parseFloat(num2) + parseFloat(num3)+ parseFloat(num4)+ parseFloat(num5));
     document.querySelector(".Resultado").innerHTML = resultado;
 }
-
